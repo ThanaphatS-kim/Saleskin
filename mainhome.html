@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <form id="myForm" onsubmit="event.preventDefault(); forMsubmit();">
+        <h1>Welcome To My CRUD</h1>
+        <div class="input-container">
+            <h2>CRUD</h2>
+            <div>
+                <input class="input-text" type="text" placeholder="ชื่อ - สกุล ::" id="textname">
+            </div>
+            <div>
+                <input class="input-text" type="text" placeholder="อายุ ::" id="yourage">
+            </div>
+            <div>
+                <input class="input-text" type="text" placeholder="ที่อยู่ ::" id="address">
+            </div>
+            <div>
+                <input class="input-text" type="number" placeholder="เบอร์โทร ::" id="phonenumber">
+            </div>
+            <div class="button-login">
+                <input class="buttonhov" type="submit" value="บันทึกข้อมูล">
+            </div>
+            <div class="button-cancel">
+                <button class="buttonhovsec" type="reset">ยกเลิก</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <section>
+            <div class="tblsection">
+                <table id="tblcontact" border="1">
+                    <tr>
+                        <th>ชื่อ-สกุล</th>
+                        <th>อายุ</th>
+                        <th>ที่อยู่</th>
+                        <th>เบอร์โทร</th>
+                        <th>แก้ไข</th>
+                        <th>ลบ</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td id="name"></td>
+                            <td id="age"></td>
+                            <td id="addr"></td>
+                            <td id="tel"></td>
+                            <td id="edit"></td>
+                            <td id="del"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </form>
+    <hr>
+    <div class="btngo">
+        <a href="home.html" >GO TO BUY SKIN</a>
+    </div>
+    
+</body>
+<link rel="stylesheet" href="mainhome.css">
+<script src="mainhome.js"></script>
+
+</html>

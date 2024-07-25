@@ -1,0 +1,114 @@
+h1, h2 {
+    text-align: center;
+}
+
+.input-container {
+    border: solid 2px gainsboro;
+    margin-top: 100PX;
+    height: 550px;
+    width: 420px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: whitesmoke;
+}
+
+.input-container input {
+    margin-top: 25px;
+}
+
+.input-text {
+    width: 345px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid gray 1.5px;
+}
+
+.button-login input {
+    background-color: #3230ca;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: solid 1.5px #3230ca;
+    font-weight: 800;
+    font-size: 18px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    width: 355px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button-cancel button {
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: solid 1.5px red;
+    font-weight: 800;
+    font-size: 18px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    width: 355px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.buttonhov:hover {
+    background-color: whitesmoke;
+    border: 1.5px solid gray;
+    transition: 0.5s;
+    color: black;
+}
+
+.buttonhovsec:hover{
+    background-color: whitesmoke;
+    border: 1.5px solid gray;
+    transition: 0.5s;
+    color: black;
+}
+
+.tblsection  {
+    border: 1.5px solid gray;
+    margin-top: 20PX;
+    height: auto;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 80px;
+}
+
+table {
+    width: 450px;
+}
+
+.btngo {
+    text-decoration: none;
+    text-align: center;
+    border: solid 1.5px black;
+    height: 20px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btngo a {
+    font-weight: 900;
+    color: black;
+}
+
+
+ 

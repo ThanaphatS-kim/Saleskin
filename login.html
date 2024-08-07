@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <nav class="navbar">Login Page</nav>
+    <form id="myForm" onsubmit="return validateForm();" action="index.html">
+        <div class="container">
+            <!-- login -->
+            <div class="login">
+                <h1>Login</h1>
+                <input class="input-text" type="text" placeholder="Username" id="username">
+                <input class="input-text" type="password" placeholder="Password" id="password">
+            </div>
+            <!-- login -->
+            <!-- buttonsubmit & cancel -->
+            <div class="button-login">
+                <button class="buttonhov" type="submit">Login</button>
+                <button class="buttonhov" type="button">Cancel</button>
+            </div>
+            <!-- buttonsubmit & cancel -->
+
+            <!-- link -->
+            <div class="link-regis">
+                <a href="register.html">Register</a>
+            </div>
+            <!-- link -->
+        </div>
+    </form>
+</body>
+<link rel="stylesheet" href="login.css">
+<script src="login.js"></script>
+
+</html>
